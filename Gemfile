@@ -1,5 +1,4 @@
-
-source :rubygems
+source 'https://rubygems.org'
 
 if ENV['RAILS_SOURCE']
   gemspec :path => ENV['RAILS_SOURCE']
